@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Chat</title>
+</head>
+
+<body>
+    <main class="main">
+        <section class="container">
+            <form class="form">
+                <h2>Leave your comment</h2>
+                <div class="inputInfo">
+                    <label>Your nickname</label>
+                    <input class="inputBox" id="nameInput" type="text">
+                </div>
+                <div class="inputInfo">
+                    <label>Insert a link of your avatar</label>
+                    <input class="inputBox" id="avatarInput" type="url">
+                </div>
+                <div class="inputInfo">
+                    <label>Your comment</label>
+                    <textarea class="inputBox" id="messageInput" rows="10" col="30"></textarea>
+                </div>
+                <div class="inputInfo">
+                    <button id="addBtn" type="button">Send</button>
+                </div>
+            </form>
+        </section>
+        <section class="container">
+            <h2>Chat</h2>
+            <div class="chatFeed"></div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

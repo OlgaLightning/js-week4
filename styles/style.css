@@ -1,0 +1,81 @@
+body {
+    margin: auto 0;
+    background-color: #1b1a1a;
+    color: #fff;
+}
+
+.main {
+    display: flex;
+}
+
+.container {
+    margin-left: 40px;
+}
+
+.form {
+    width: 270px;
+}
+
+h2 {
+    color: rgb(8, 165, 113);
+    font-size: 28px;
+}
+
+.inputInfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+label,
+button {
+    font-size: 20px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: rgb(8, 165, 113);
+    color: #fff;
+    padding: 7px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.inputBox {
+    border: 2px dashed rgb(8, 165, 113);
+    background-color: #1b1a1a;
+    padding: 7px 10px 7px 10px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.inputBox:focus {
+    border: 2px dashed rgb(8, 165, 113);
+    outline: none;
+}
+
+.userMessage {
+    border-bottom: 2px dotted rgb(8, 165, 113);
+    padding-bottom: 5px;
+    margin: 30px 0;
+    width: 1000px;
+}
+
+img {
+    width: 70px;
+}
+
+.chatEntry {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.chatEntry h3 {
+    margin-left: 10px;
+    color: rgb(8, 165, 113);
+}
+
+.p {
+    font-size: 17px;
+}
